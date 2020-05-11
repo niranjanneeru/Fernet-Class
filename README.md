@@ -17,8 +17,22 @@ $ pip install -r requirements.txt
 ```
 ---
 
-## Working
 
+
+## Working
+```bash
+$ python keygen.py
+
+$ python encode.py
+
+Enter the Secret Message: Fernet is really cool
+
+$ python decode.py
+
+Enter 1 for File input mode or skip: 1
+Fernet is really cool
+
+```
 
 | Result | File | command|
 |--------|------|--------|
